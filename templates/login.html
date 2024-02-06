@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Login</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='signup.css')}}">
+</head>
+
+<body>
+    <nav>
+        <img src="{{url_for('static',filename='assets/logo.png')}}" alt="logo">
+    </nav>
+    <div class="container">
+        <form class="formbox" action="/login" method="post">
+            <h2>Login</h2>
+            <h3>Please Login to your account</h3>
+            {% with messages = get_flashed_messages() %}
+            {% if messages %}
+            <ul class="flashes">
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endwith %}
+
+            <input type="email" placeholder="Email" name="email">
+            <input type="password" placeholder="Password" name="password">
+            <button type="submit" id="btn">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>

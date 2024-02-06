@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.mainbody {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+                       rgba(0, 0, 0, 0.7)), url("assets/bg.jpg");
+    height: 90vh;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.mainbody .cover {
+    background-color: black;
+    height: 90vh;
+    opacity: 0.67;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+nav span img {
+    width: 150px;
+}
+
+nav span {
+    margin-top: 25px;
+}
+
+nav {
+    display: flex;
+    max-width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 64px;
+}
+
+nav img {
+    position: relative;
+    z-index: 12;
+}
+
+nav button {
+    position: relative;
+    z-index: 12;
+}
+
+.maincontent {
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    z-index: 12;
+    position: relative;
+    padding: 25px;
+    text-align: center;
+}
+
+.maincontent> :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.maincontent> :nth-child(2) {
+    font-size: 20px;
+    font-weight: 400px;
+}
+
+.maincontent> :nth-child(3) {
+    font-size: 17px;
+    font-weight: 400px;
+}
+
+.curved {
+    background-color: rgb(255, 0, 0)
+}
+
+.navbtn {
+    margin: 5px 8px;
+    padding: 7px 29px;
+    border-radius: 5px;
+    color: white;
+}
+
+#english {
+    border: 1px solid rgb(62, 62, 62);
+    background-color: black;
+}
+
+#signin {
+    padding: 8px 24px;
+    background-color: red;
+    border: none;
+    font-size: 15px;
+}
+
+#signin:hover {
+    cursor: pointer;
+    background-color: rgb(228, 1, 1);
+}
+
+.email {
+    padding: 8px 24px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(26, 26, 26);
+    color: white;
+    margin-right: 4px;
+}
+
+#emailbtn {
+    background-color: red;
+    border: none;
+    padding: 10px 14px;
+}
+
+#emailbtn:hover {
+    background-color: rgb(228, 1, 1);
+    cursor: pointer;
+}
+
+hr {
+    width: 60%;
+    margin: auto;
+    opacity: 0.4;
+}
+
+
+/* features box */
+h2 {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+#more {
+    margin: 5px 0 2px 0px;
+    font-size: 29px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.featurebox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #192145, #210e18);
+    width: 240px;
+    height: 280px;
+    color: white;
+    margin: 5px 15px;
+    border-radius: 12px;
+    padding: 8px 10px;
+}
+
+.fhead {
+    text-align: center;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 23px;
+    margin-bottom: 5px;
+
+}
+
+.fpara {
+    text-align: center;
+
+
+}
+
+.fimg img {
+    position: relative;
+    width: 50%;
+    bottom: -37px;
+    right: -119px;
+}
+
+/* Faqs */
+
+.faqsec {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faqs {
+    width: 47%;
+    height: 30px;
+    background-color: #2d2d2d;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.faqs:hover {
+    background-color: #403f3f;
+    cursor: pointer;
+}
+
+.faqp {
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 18px;
+}
+
+.faqs svg {
+    color: white;
+}
+
+#questions {
+    margin: 20px 2px 2px 2px;
+    font-size: 29px;
+}
+
+
+#bottomtagline {
+    color: white;
+    font-size: 18px;
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+}
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 2px 2px 2px;
+}
+
+#bottommailtag {
+    color: white;
+    font-size: 18px;
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+
+}
+
+.sec3 form {
+    display: flex;
+    justify-content: center;
+    margin: 5px 2px 20px 2px;
+}
+
+.bottommail {
+    height: 27px;
+    width: 300px;
+}
+p{
+    color: white;
+}
+
+
+
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    height: 400px;
+}
+.footer-container{
+    display: flex; 
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.footlinks{
+    margin: 8px 10px 8px 10px;
+    height: 90px;
+    width: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footlinks ul li{
+    margin: 22px 4px;
+    list-style: none;
+    font-size: 16px;
+}
+
+.footlinks ul li a{
+    color: rgb(188, 188, 188);
+}
+#footerline{
+    width: 100%;
+}
+
+
+
+#lastenglishbtn{
+    border: 1px solid rgb(62, 62, 62);
+    background-color: black;
+    margin: 0;
+}
+.foottext{
+    text-align: center;
+    font-size: 19px;
+}
+
+
+
+
+/* responsiveness */
+@media screen and (max-width:972px) {
+    .mainbody{
+        height: 500px;
+    }
+    .maincontent {
+        height: 400px;
+    }
+
+    .maincontent> :nth-child(1) {
+        font-size: 34px;
+        font-weight: bolder;
+    }
+}
+@media screen and (max-width:662px) {
+
+    .maincontent> :nth-child(1) {
+        font-size: 27px;
+        font-weight: bolder;
+    }
+
+}
+@media screen and (max-width:484px) {
+
+    .maincontent> :nth-child(1) {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .maincontent> :nth-child(2) {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .maincontent> :nth-child(3) {
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .bottommail {
+        height: 22px;
+        width: 150px;
+        padding-left: 2px;
+    }
+    .email{
+        margin: 10px 3px;
+    }
+    .maincontent{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    #questions{
+        font-size: 23px;
+    }
+    #more{
+        font-size: 23px;
+    }
+    #bottommailtag{
+        font-size: 14px;
+    }
+    nav span img{
+        width: 110px;
+    }
+    .navbtn{
+        padding: 3px 18px;
+        margin: 2px 4px;
+    }
+    #signin{
+        font-size: 13px;
+        padding: 6px 17px;
+    }
+    .mainbody{
+        height: 450px;
+    }
+    .maincontent{
+        height: 323px;
+    }
+}
+/* ipad pro */
+@media screen and (width:1024px) and (height:1366px){
+    .mainbody{
+        height: 40vh;
+    }
+}
+
+
+@media screen and (max-width:1212px){
+    .footlinks{
+        width: 200px;
+    }
+}
+@media screen and (max-width:1183px){
+    .footlinks{
+        width: 173px;
+    }
+}
+@media screen and (max-width:744px){
+    .footlinks{
+        width: 100px;
+    }
+    .foottext{
+        margin: 30px 4px;
+    }
+    .faqp{
+        font-size: 15px;
+    }
+    .faqs{
+        height: 35px;
+    }
+}
+@media screen and (max-width:430px){
+    .footlinks{
+        width: 60px;
+    }
+    .foottext{
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width:530px){
+    .fimg img {
+        position: relative;
+        width: 90%;
+        bottom: 0;
+        right: 6px;
+    }
+    .featurebox{
+        width: 100%;
+        flex-direction: row;
+        height: 100px;
+
+    }
+    .fhead{
+        font-size: 20px;
+        text-align: left;
+    }
+    .fpara{
+        font-size: 16px;
+        text-align:left;
+    }
+}
